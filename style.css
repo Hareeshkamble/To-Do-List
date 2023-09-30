@@ -1,0 +1,99 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 4
+  }
+  .material-symbols-outlined{
+    list-style: decimal;
+    font-family: 'Bungee Spice', cursive;
+font-size:28px;
+text-align: left;
+text-align: right;
+margin-top:10px;
+
+  }
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background:#b0b7f3 ;
+    font-family: 'Bungee Spice', cursive;
+    
+
+}
+h1{
+    font-family: 'Bungee Spice', cursive;
+
+}
+h1,input{
+    text-align: center;
+}
+.container {
+    border-radius: 0pt;
+    width: 700px;
+    height: 60vh;
+    background: snow;
+margin-top: 10%;
+margin-left: 30%;
+border-radius: 30px;
+}
+.LiClass{
+    list-style: decimal;
+    font-family: 'Bungee Spice', cursive;
+font-size: 18px;
+text-align: left;
+margin: 5px 6px 7px 3px;
+margin-left: 15%;
+
+
+}
+input{
+    width:60% !important;
+    height :28px!important;
+    border-radius:4px;
+    border:1px solid rgb(5, 5, 5);
+    box-shadow: 10px 1px 10px 6px;
+    margin-left: 15%;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+#btn{
+    height :28px!important;
+    border-radius:4px;
+    width: 100px;
+    cursor: pointer; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background: brown;
+}
+
+#btn:hover{
+    box-shadow: 6px -4px 10px rebeccapurple;
+    transition: 0.7s;
+    color: white;
+    background-image: linear-gradient(to right, #a85490 0%, #a3a9b3 51%, #2870a3 100%);
+}
+
+#delete{
+margin-left: 300px;
+width: 50px;
+border-radius: 50%;
+}
+#delete:hover{
+    color: white;
+    background: red;
+}
+
+
